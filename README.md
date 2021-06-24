@@ -188,6 +188,7 @@ $ docker-compose up -d
 - #### Create a job
 `New Item -> Enter Job Name -> Select Freestyle project`
 
+Bakal ada bug di mana node js pathnya tidak muncul, still dont know how to fix it, but thats the only problem.
 ![Image of freestyle build env](https://github.com/sidiqputra/technoscape-demo/blob/main/docs/images/freestyle-buildenv.png?raw=true)
 
 
@@ -197,5 +198,6 @@ $ docker-compose up -d
 - #### Trigger build
 `Job -> build now`
 
+Enable SCM, the setting is like cronjob like * * * * * for to run every minutes, etc.
 - #### Automated build with pool scm
 
