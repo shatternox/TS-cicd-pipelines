@@ -79,8 +79,8 @@ https://github.com/sidiqputra/technoscape-demo/tree/main/docs/demo-day2
 
 
 
-
-
+Flow Development lifecyclenya
+Branch >> PR >> Status Check >> OK >> Deployment
 
 
 
