@@ -187,8 +187,18 @@ $ docker-compose up -d
 ## Create Freestyle job to deploy application
 - #### Create a job
 `New Item -> Enter Job Name -> Select Freestyle project`
+.
+.
+http://declanfeng.com/docs/devops/devops-1c9gke539g7bc
+>>> This website helps eventhough it is chinese. Dang
+localhost:8080/configureTools
+Add Node JS
 
-Bakal ada bug di mana node js pathnya tidak muncul, still dont know how to fix it, but thats the only problem.
+Don't forget to configure the project, add Git as source code management, and add repository URL.
+https://github.com/shatternox/TS-cicd-pipelines.git
+
+Change branch to ``*/main``
+
 ![Image of freestyle build env](https://github.com/sidiqputra/technoscape-demo/blob/main/docs/images/freestyle-buildenv.png?raw=true)
 
 
@@ -201,3 +211,4 @@ Bakal ada bug di mana node js pathnya tidak muncul, still dont know how to fix i
 Enable SCM, the setting is like cronjob like * * * * * for to run every minutes, etc.
 - #### Automated build with pool scm
 
+Update the file > push to github > check on heroku, it is automatically (deployed by jenkins) updated.

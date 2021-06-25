@@ -14,5 +14,9 @@
     {
         "id": 4,
         "name": "Ayam"
+    },
+    {
+        "id": 5,
+        "name": "Bebek"
     }
 ]
