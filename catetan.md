@@ -1,3 +1,5 @@
+# Sesi 1 - 24 Juni 2021
+
 ## Building CI/CD Pipelines with Jenkikns
 >>> Muhammad Sidiq Putra - Development Operations (DevOPS) Lead at tiket.com
 
@@ -60,9 +62,20 @@ App Repo >>> Jenkins >>> Packer >>> Terraform & Ansible >>> Base Image >>> App I
 https://github.com/sidiqputra/technoscape-demo/tree/main/docs/demo-day1
 
 
+# Sesi 2 - 25 Juni 2021
+
+## Jenkins Pipeline
+- Harusnya kita gk boleh langsung push ke main code kyk kemarin. Harusnya ada unit test dulu, ada branching di githubnya. Kalo udah oke, baru boleh dimerge.
+- Jenkins ada 2 model pipeline, **Declarative Pipeline (dengan pipeline)** dan **Scripted Pipeline (node)**
+
+Kalo declarative, agentnya bisa beda-beda, kalo scripted agentnya harus ditentuin di awal.
+Declarative ini lebih baru.
 
 
+## What is unit testing
+- Memastikan software bekerja dengan baik dan sesuai keinginan user.
 
+https://github.com/sidiqputra/technoscape-demo/tree/main/docs/demo-day2
 
 
 
